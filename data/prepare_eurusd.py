@@ -2,7 +2,6 @@
 Run: python prepare_eurusd.py --input eurusd-h1-bid-2025-10-01-2026-10-01.csv --output reproduced.csv
 Requires pandas and tzdata (on Windows): pip install pandas tzdata
 """
-
 import argparse
 import pandas as pd
 
